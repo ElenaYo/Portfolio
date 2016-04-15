@@ -1,0 +1,14 @@
+ Can not select date of month with mouse in table row
+ Description:
+ Can not select date of month with mouse in table row
+ 
+ Steps to reproduce:
+ 1) Create table row with type "date".
+ 2) Enter the date in format MM/DD/YYYY
+ 3) Click on second part of date. (first is month, second is day, third is year)
+   
+ Expected result:
+ Cursor moved to "day" for editing.
+ 
+ Actual result: 
+ Cursor did not moved to "day" and record did not edited.

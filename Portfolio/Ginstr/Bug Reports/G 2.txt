@@ -1,0 +1,17 @@
+ Data column displayed only in short format
+ 
+ Description:
+ Data column displayed only in short format.
+ Steps to reproduce:
+ 1) Open Ginstr home page.
+ 2) Create and save a new table "1234".
+ 3) Click "add table not belonging to a ginster app"
+ 4) Enter a name of column «date» 
+ 5) Click «data»
+ 6) Date displayed only in format 01/01/01
+
+ Expected result: 
+ Any date should be displayed.
+ 
+ Actual result:
+ Incorrectly displays data before 01.01.2000

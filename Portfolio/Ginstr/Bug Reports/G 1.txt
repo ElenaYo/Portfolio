@@ -1,0 +1,14 @@
+ Invalid e-mail allowed in table column with type field "e-mail"
+  
+ Description:
+ Invalid e-mail allowed in table column with type field "e-mail"
+ 
+ Steps to reproduce:
+ 1) Create table column with type "e-mail"
+ 2) Enter "-" symbol and domain. Example: -@mail.ru
+ 
+ Expected result:
+ Dialog message that email is incorrect and field not adds.
+ 
+ Actual result:
+ Field with email was added.
