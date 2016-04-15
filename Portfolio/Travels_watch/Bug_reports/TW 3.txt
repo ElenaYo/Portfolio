@@ -1,0 +1,19 @@
+ The user registration with an insecure password is allowed.
+ 
+ Description:
+ The user registration with an insecure password is allowed.
+ 
+ Steps to reproduce:
+ 1) Go to the main app page.
+ 2) Click on the "Sign Up" button.
+ 3) Enter "Elena" in the "First Name" field and 
+    enter "Ivanova" in the "Last Name" field,
+    enter "lt05@mail.ru" in the "Username(Email)" field,
+    enter  "123qwe" in the "Password" field.
+ 4) Click on the "Sign Up" button.
+  
+ Expected result: 
+ The user registration is impossible with an insecure password,user is not created.
+ 
+ Actual result: 
+ User was successfully created and logged.

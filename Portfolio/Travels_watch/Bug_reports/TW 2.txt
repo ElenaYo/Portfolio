@@ -1,0 +1,19 @@
+ The user registration with 1 special symbol as "First Name" & "Last Name" is allowed.
+ 
+ Description:
+ The user registration with 1 symbol as "First Name" & "Last Name" is allowed.
+
+ Steps to reproduce:
+ 1) Go to the main app page.
+ 2) Click on the "Sign Up" button.
+ 3) Enter ")" in the "First Name" field and 
+    enter ")" in the "Last Name" field,
+    enter "rrr2@tt.com" in the "Username(Email)" field,
+    enter  "123qwe" in the "Password" field.
+ 4) Click on the "Sign Up" button.
+  
+ Expected result: 
+ The user registration is impossible with 1 special symbol as First Name and Last Name,user is not created.
+ 
+ Actual result: 
+ User was successfully created and logged.

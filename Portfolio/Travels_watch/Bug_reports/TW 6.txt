@@ -1,0 +1,15 @@
+ Can not change the Password.
+ 
+ Description:
+ Can not change the Password.
+ 
+ Steps to reproduce:
+ 1) Open the "travels watch" main page.
+ 2) Click on "Profile" button in the upper right corner.
+ 3) In the pop-up window choose "Change Password".
+ 
+ Expected result: 
+ The user should be able to change password.
+ 
+ Actual result: 
+ Can not change the Password.

@@ -1,0 +1,22 @@
+ Registration fields are not cleared after sign out.
+ 
+ Description:
+ Registration fields are not cleared after sign out.
+ 
+ Steps to reproduce:
+ 1) Go to the main app page.
+ 2) Click on the "Sign Up" button.
+ 3) Enter "Elena" in the "First Name" field and 
+    enter "Ivanova" in the "Last Name" field,
+    enter "lt05@mail.ru" in the "Username(Email)" field,
+    enter  "123qwe" in the "Password" field.
+ 4) Click on the "Sign Up" button.
+ 5) Click on the Username “ElenaI”.Choose “Signout”.
+ 6) Click "Sign Up" button.
+  
+ Expected result: 
+ Sign Up menu fields are empty.
+ 
+ Actual result: 
+ Username (Email)” and “Password” fields contain data from the previous registration.
+ "First Name" and "Last Name" fields are empty. 

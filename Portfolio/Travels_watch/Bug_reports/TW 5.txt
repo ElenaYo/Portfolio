@@ -1,0 +1,19 @@
+ The pop-up window is empty in the field “Password”.
+ 
+ Description:
+ The pop-up window is empty in the field “Password”.
+ 
+ Steps to reproduce:
+ 1) Go to the main app page.
+ 2) Click on the "Sign Up" button.
+ 3) Enter "Elena" in the "First Name" field and 
+    enter "Ivanova" in the "Last Name" field,
+    enter "lt05@mail.ru" in the "Username(Email)" field,
+    enter  "123qwe" in the "Password" field.
+ 4) Click on the "Sign Up" button.
+  
+ Expected result: 
+ The pop-up window should contain requirements for the field password.
+ 
+ Actual result: 
+ The pop-up window is empty in the field “Password”.

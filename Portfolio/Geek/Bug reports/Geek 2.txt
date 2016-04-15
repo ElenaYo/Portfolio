@@ -1,0 +1,14 @@
+ Search does not work correctly
+ 
+ Description:
+ Search does not work correctly
+
+ Steps to reproduce:
+ 1) Go to the main app page.
+ 2) Enter “Нескучное”. Search.
+ 
+ Expected result: 
+ The system should display information according to the entered search words
+ 
+ Actual result: 
+ Tab ““Нескучное” exist, but info is not displayed.

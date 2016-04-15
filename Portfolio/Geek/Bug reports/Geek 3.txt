@@ -1,0 +1,20 @@
+ The user registration with an e-mail address domain part of which is longer than 255 characters is allowed.
+ 
+ Description:
+ The user registration with an e-mail address domain part of which is longer than 255 characters is allowed. 
+
+ Steps to reproduce:
+ 1) Go to the main app page.
+ 2) Click on login button and select "Регистрация"
+ 3) To field Имя enter "qwerty1"
+ 4) To field Еmail адрес enter an e-mail address,the domain part of which contains more than 255 characters.
+ 5) To field Пароль enter password
+ 6) Click on checkbox Я не робот
+ 7) Click on button Регистрация
+
+  
+ Expected result: 
+ The user registration is impossible with an e-mail address domain part of which is longer than 255 characters,user is not created.
+ 
+ Actual result: 
+ User was successfully created and logged.
